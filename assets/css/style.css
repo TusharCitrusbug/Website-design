@@ -1,0 +1,18 @@
+body, html {
+    height: 100%;
+    background-color: white;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header .instrumentia-header-main nav div a{
+    display: inline;
+}
+
+.instrumentia-header-links li{
+    display: inline;
+    padding: 5px;
+}
