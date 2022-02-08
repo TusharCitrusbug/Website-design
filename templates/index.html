@@ -7,69 +7,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musical instruments</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- nav bar -->
     <header class="instrumentia-header">
-        <div class="instrumentia-header-main">
+
             <nav class="instrumentia-nav">
+                <ul class="instrumentia-nav-ul">
+                    <li>
+                        <div class="instrumentia-logo-container">
+                            <a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href=""><img
+                                    src="/assets/images/wonderland.png" alt=""><a>
+                        </div>
+                    </li>
+                    <li id="search-li">
+                        <div class="search-input">
+                            <input type="text" class="site-search__controls__input" autocorrect="on" autocapitalize="off"
+                                placeholder="Search here..your &amp; new music gear..." value="">
+                                <a href="#" class="search-logo">
 
-                <div class="instrumentia-logo-container">
-                    <a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href=""><img
-                            src="/assets/images/Intrumentia Logo.png" alt=""></a>
-                </div>
-
-                <div class="instrumentia-searchbar">
-                    <div class="search-input">
-                        <input type="text" class="site-search__controls__input" autocorrect="on" autocapitalize="off"
-                            placeholder="Search here..your &amp; new music gear..." value="">
-                    </div>
-                    <div class="search-logo">
-                        <a href=""></a><img src="https://img.icons8.com/ios/100/000000/search--v3.png" />
-                    </div>
-                </div>
-
-                <div class="right-side-bar">
-                    <ul class="sidebar-list">
-                        <li>
-                            <div class="sell-btn-container">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="50" height="50"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#000000"><path d="M72.24,10.32c-32.33062,0 -58.48,26.14938 -58.48,58.48c0,32.33063 26.14938,58.48 58.48,58.48c11.54281,0 22.22563,-3.38625 31.2825,-9.1375l42.2475,42.2475l14.62,-14.62l-41.71,-41.6025c7.49813,-9.83625 12.04,-22.02406 12.04,-35.3675c0,-32.33062 -26.14937,-58.48 -58.48,-58.48zM72.24,24.08c24.76531,0 44.72,19.95469 44.72,44.72c0,24.76531 -19.95469,44.72 -44.72,44.72c-24.76531,0 -44.72,-19.95469 -44.72,-44.72c0,-24.76531 19.95469,-44.72 44.72,-44.72z"></path></g></g></svg>
+                                    
+                                    
+                                    </a>   
+                        </div>
+                        
+                           
+            
+                    </li>
+                    
+                    <li>
+                        <div class="sell-btn-container">
                                 <a class="selling-btn" href="#" type="button">Sell Your Gear</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="wish-list-container">
-                                <a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href=""><img
-                                        src="/assets/images/Intrumentia Logo.png" alt=""></a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="my-feed-container">
-                                <a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href=""><img
-                                        src="/assets/images/Intrumentia Logo.png" alt=""></a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="cart-container">
-                                <a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href=""><img
-                                        src="/assets/images/Intrumentia Logo.png" alt=""></a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="sign-up-btn">
-                                <a href=""></a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="sign-in-btn">
-                                <a href=""></a>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wish-list-container">
+                            <ul>
+                                <li id="icon"><a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href=""><img src="https://img.icons8.com/cute-clipart/64/000000/like.png"/></a></li>
+                                <li id="icon"><span>Wish-list</span></li>
+                            </ul>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="my-feed-container">
+                            <a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href=""><img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-feed-devices-flatart-icons-outline-flatarticons.png"/></a>
+                        </div>
 
-                </div>
+                    </li>
+
+                    <li>
+                        <div class="cart-container">
+                            <a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href=""><img src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-cart-supermarket-flatart-icons-lineal-color-flatarticons.png"/></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sign-up-btn">
+                            <a href="">sign-up</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="sign-in-btn">
+                            <a href="">sign-in</a>
+                        </div>
+
+                    </li>
+                </ul>
+
             </nav>
-        </div>
+    </header>
         <div class="instrumentia-header-links">
             <ul class="instrumentia-list">
                 <li>
@@ -148,9 +161,15 @@
 
             </ul>
         </div>
-    </header>
+    
 
     <!-- end nav bar -->
+    <script>
+    
+       
+
+    
+    </script>
 </body>
 
 </html>
