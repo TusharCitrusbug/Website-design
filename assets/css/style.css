@@ -419,3 +419,75 @@ main{
 .size-100 a:hover{
     color: #ca6b05;
 }
+
+.size-180{
+    font-size: 180%;
+    color: #f6af61;
+}
+
+.pb-4, .scaling-pb-4 {
+    padding-bottom: 4rem;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.color-gray img{
+    margin-top: -5px;  
+    margin-left: 48PX;
+}
+
+.arrow-img img{
+    width: 15px;
+    height: 33px;
+    margin-top: -19px !important;
+    margin-left: 59px;
+    
+    display: inline;
+}
+
+.color-gray span{
+    position: absolute;
+    margin-top: 11px;
+    
+}
+
+.arrow-img{
+    background-color: #ffebd4;
+    border: 1px solid #ffebd4;
+    border-radius: 3px;
+    
+    
+}
+
+.gfi-span{
+    color: #414141;
+    margin-top: 14px !important;
+    margin-left: 8px;
+    z-index: 1;
+}
+
+.gfi-span:hover{
+    color: #f6870f;
+}
+
+.size-101, #size-p, #size-h1{
+    color: white;
+}
+
+.sell__form__input .search-iconn{
+    margin-top: -15px;
+    height: 39px;
+    width: 31px;
+}
+.sell__form__container #btn-srch{
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(160, 158, 158);
+    border-radius: 2px;
+}
+
+.sell__form__container #btn-srch:hover{
+    background: #e4e2e0;
+}
+
