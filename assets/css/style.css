@@ -491,3 +491,100 @@ main{
     background: #e4e2e0;
 }
 
+.mosaic-tile__subtitle {
+    font-size: .9em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+    margin-top: 2.25rem;
+    
+}
+
+.mosaic-tiles {
+    
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.mosaic-tiles__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+li, ol, ul {
+    list-style: none;
+}
+
+.mosaic-tile+.mosaic-tile {
+    margin-left: 1.8rem;
+}
+.mosaic-tile {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.mosaic-tile__link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    box-shadow: none;
+    color: #414141;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    
+    transition: opacity .2s ease-in-out;
+}
+
+.mosaic-tile__image1{
+    background-image: url(/assets/images/horizontal-tile-d73b383d2c70966c3e5bd780c1db2c0f274a70d22a27e8e3a45c029c870bdeb9.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.mosaic-tile__image2{
+    background-image: url(/assets/images/snmnrbco9nx75mtsfgek.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mosaic-tile__image3{
+    background-image: url(/assets/images/vwti9vmchjnconyehks3.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.mosaic-tile__image1 {
+    margin-left: 15px;
+}
+
+.mosaic-tile__image1 , .mosaic-tile__image2 , .mosaic-tile__image3{
+    width: 333px;
+    height:200px;
+}
+
+.homepage-value-props{
+background-image: url(/assets/images/section-texture-5f954532d5847542326f.jpg);
+height: 170px
+}
+
+.homepage-value-props__inner{
+    display: flex;
+    align-items: center;
+    
+}
+
+.homepage-value-props__inner h3{
+    align-content: center;
+    /* margin-left: 10px; */
+}
