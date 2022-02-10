@@ -11,3 +11,33 @@ django
 time line 15th march
 
 project planning and all documentations
+
+
+
+
+AEFMD regx
+
+-related too finance and funds(managing hjedge funds)
+
+
+explaination
+
+-regx admin will add the clients (register)
+
+-whe client will login his modules will be 4
+
+all modules
+
+1.regx admin login
+    -admin can add clients
+    -admin can delete and interactive client
+
+2. client login
+
+    -fund house (you can consider as a catagory ex. US fund house)
+        -add fund house
+        -edit and delete
+
+        -Funds(select only one fund house)
+            -add fund
+            -add and delete

@@ -15,19 +15,21 @@
 <body>
     <!-- nav bar -->
     <header class="instrumentia-header">
-
+<div class="instruemntia-header__main">
+    <div class="instruemntiareverb-header__inner">
+       
         <nav class="instrumentia-nav">
 
             <a href="#" class="menu-span">Menu</a>
             <ul class="instrumentia-nav-ul">
-                <li>
+                <li class="nav-bar-li" id="nav-bar-li">
                     <div class="instrumentia-logo-container">
-                        <a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href=""><img
-                                src="/assets/images/wonderland.png" alt=""><a>
+                        <a aria-label="instrumentia-Logo" class="instrumentia-header-logo" href="#"><img
+                                src="/assets/images/reverb-logo-1fdc450768bab7dcfe0f.svg" alt=""><a>
                     </div>
                 </li>
 
-                <li id="search-li">
+                <li class="nav-bar-li" id="search-li">
                     <div class="search-input">
                         <input type="text" class="site-search__controls__input" autocorrect="on" autocapitalize="off"
                             placeholder="Search here..your &amp; new music gear..." value="">
@@ -56,13 +58,13 @@
 
                 </li>
 
-                <li>
+                <li class="nav-bar-li">
                     <div class="sell-btn-container">
                         <a class="selling-btn" href="#" type="button">Sell Your Gear</a>
                     </div>
                 </li>
 
-                <li style="list-style-type: none; margin-bottom: -20px;">
+                <li class="nav-bar-li" style=" margin-bottom: -20px;">
                     <div class="wish-list-container">
 
                         <span id="icon">
@@ -71,11 +73,10 @@
                         </span>
                         <span id="icon">Wish-list</span>
 
-
                     </div>
                 </li>
 
-                <li style="list-style-type: none;">
+                <li class="nav-bar-li" style="list-style-type: none;">
                     <div class="my-feed-container">
                         <a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href=""><img
                                 src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-feed-devices-flatart-icons-outline-flatarticons.png" />
@@ -88,7 +89,7 @@
 
                 </li>
 
-                <li style="list-style-type: none;">
+                <li class="nav-bar-li" style="list-style-type: none;">
                     <div class="cart-container">
                         <a aria-label=" instrumentia-Logo" class="instrumentia-header-logo" href="">
                             <span id="icon">
@@ -99,13 +100,13 @@
                     </div>
                 </li>
 
-                <li style="list-style-type: none;">
+                <li class="nav-bar-li" style="list-style-type: none;">
                     <div class="sign-up-btn">
                         <a href="">sign-up</a>
                     </div>
                 </li>
 
-                <li style="list-style-type: none;">
+                <li class="nav-bar-li" style="list-style-type: none;">
                     <div class="sign-in-btn">
                         <a href="">sign-in</a>
                     </div>
@@ -114,9 +115,15 @@
             </ul>
 
         </nav>
+    </div>
+</div>
+ 
     </header>
+
     <hr>
-    <div class="instrumentia-header-links">
+
+    <!-- second nav -->
+    <div class="instrumentia-header-links" style="display: none;">
         <ul class="instrumentia-list">
             <li>
 
@@ -196,12 +203,13 @@
 
         </ul>
     </div>
+    <!-- end second nav -->
     <hr>
     <!-- end nav bar -->
 
     <!-- main section -->
 
-    <main class="body-wrapper">
+    <main class="body-wrapper" style="display: none;">
         <section class="section-container">
             <header id="sell_header_2" class="sell__header">
 
@@ -263,12 +271,12 @@
                             </a>
                         </li>
 
-                        <li class="mosaic-tile"><a class="mosaic-tile__link"
-                                href="#">
+                        <li class="mosaic-tile"><a class="mosaic-tile__link" href="#">
                                 <div class="mosaic-tile__image2">
                                 </div>
                                 <div class="mosaic-tile__text">
-                                    <p class="mosaic-tile__subtitle" style="margin-left: 1px;">Handpicked by Reverb's experts</p>
+                                    <p class="mosaic-tile__subtitle" style="margin-left: 1px;">Handpicked by Reverb's
+                                        experts</p>
                                     <h4 class="mosaic-tile__title"> Deals and Steals</h4>
                                 </div>
                             </a>
@@ -277,7 +285,7 @@
                         <li class="mosaic-tile">
                             <a class="mosaic-tile__link" href="">
                                 <div class="mosaic-tile__image3">
-                                    
+
                                 </div>
                                 <div class="mosaic-tile__text">
                                     <p class="mosaic-tile__subtitle">The sky’s the limit</p>
@@ -298,12 +306,13 @@
                         <div class="homepage-value-props__inner">
                             <div>
                                 <h3><span>Built for Selling Gear</span></h3>
-                                <p><span>We make <a href="/sell/search">selling your gear</a> online easy so you can
+                                <p><span>We make <a href="#" style="color: #057bc4;">selling your gear</a> online easy
+                                        so you can
                                         focus on one thing—making music.</span></p>
                             </div>
                             <div>
                                 <h3><span>Endless Gear to Discover</span></h3>
-                                
+
                                 <p><span>From vintage synths to rare guitars, find exactly what you need or something
                                         unexpected.</span></p>
                             </div>
@@ -319,26 +328,34 @@
                             </div>
                         </div>
                     </section>
+
+
+
+<!-- home page component wrapper -->
                     <div class="homepage-container__component-wrapper">
+
                         <div class="dynamic-page dynamic-page--flush-with-header">
+
                             <div>
                                 <div class="dynamic-page__one-col">
                                     <div class="overflowing-row overflowing-row--disable-left-control">
                                         <div class="overflowing-row__inner">
                                             <h2 class="overflowing-row__heading"><span>Reverb Staff Picks</span></h2>
+
                                             <div class="overflowing-row__items">
                                                 <div class="overflowing-row__items__inner">
-                                                    <ul class="tiles tiles--single-row tiles--grow tiles--large">
+                                                  <ul class="tiles tiles--single-row tiles--grow tiles--large">
+
                                                         <li class="tiles__tile">
                                                             <article class="csp-square-card" itemscope=""
-                                                                itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/demedash-effects-t-60-analog-modulator">
+                                                                itemtype="http://schema.org/Product">
+                                                                <a class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--GXvHunTo--/t_card-square/v1635887099/mw9r6da59cvrchhxdkwj.jpg"
-                                                                                loading="lazy"></div>
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/mw9r6da59cvrchhxdkwj.jpg"
+                                                                                loading="lazy">
+                                                                        </div>
+
                                                                         <div class="csp-square-card__finish-indicator">
                                                                             Multiple Finishes</div>
                                                                         <div class="csp-square-card__title">
@@ -349,7 +366,8 @@
                                                                             <div class="csp-square-card__category">
                                                                                 <span>Effects and
                                                                                     Pedals</span><span>Chorus and
-                                                                                    Vibrato</span></div>
+                                                                                    Vibrato</span>
+                                                                            </div>
                                                                             <div>
                                                                                 <meta content="Demedash Effects"
                                                                                     itemtype="http://schema.org/Brand"
@@ -378,11 +396,15 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
+
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="5 out of 5 stars"
@@ -445,17 +467,18 @@
                                                                                 <b>$260</b></span>
                                                                         </div>
                                                                     </div>
-                                                                </a></article>
+
+                                                                </a>
+                                                            </article>
                                                         </li>
+
                                                         <li class="tiles__tile">
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/hiwatt-custom-shop-filter-fuzz">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--mG9rrTMU--/t_card-square/v1639757384/pdesrx7xh2bwpw9szwee.jpg"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/pdesrx7xh2bwpw9szwee.jpg"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">Hiwatt
@@ -464,7 +487,8 @@
                                                                                 Custom Shop Filter Fuzz</h3>
                                                                             <div class="csp-square-card__category">
                                                                                 <span>Effects and
-                                                                                    Pedals</span><span>Fuzz</span></div>
+                                                                                    Pedals</span><span>Fuzz</span>
+                                                                            </div>
                                                                             <div>
                                                                                 <meta content="Hiwatt"
                                                                                     itemtype="http://schema.org/Brand"
@@ -493,11 +517,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="5 out of 5 stars"
@@ -562,15 +588,14 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
+
                                                         <li class="tiles__tile">
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/strymon-starlab-time-warped-reverberator">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--_lIa6P_W--/t_card-square/v1635886614/onijefuy0birvfkwemtg.jpg"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/onijefuy0birvfkwemtg.jpg"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">Strymon
@@ -609,11 +634,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="5 out of 5 stars"
@@ -679,15 +706,14 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
+
                                                         <li class="tiles__tile">
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/hologram-electronics-microcosm">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--lAWlz8Bi--/t_card-square/v1605403996/bk7bg6vaiab3ws0m8tvs.jpg"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/bk7bg6vaiab3ws0m8tvs.jpg"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">Hologram
@@ -697,7 +723,8 @@
                                                                             <div class="csp-square-card__category">
                                                                                 <span>Effects and
                                                                                     Pedals</span><span>Loop Pedals and
-                                                                                    Samplers</span></div>
+                                                                                    Samplers</span>
+                                                                            </div>
                                                                             <div>
                                                                                 <meta content="Hologram Electronics"
                                                                                     itemtype="http://schema.org/Brand"
@@ -726,11 +753,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="4.79 out of 5 stars"
@@ -795,15 +824,14 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
+
                                                         <li class="tiles__tile">
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/jhs-packrat-distortion">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--HfLfbjUH--/t_card-square/v1635449478/apfoeflfbhztirf2wqgz.png"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/apfoeflfbhztirf2wqgz.png"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">JHS</div>
@@ -840,11 +868,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="5 out of 5 stars"
@@ -910,15 +940,15 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
-                                                        <li class="tiles__tile">
+
+
+                                                        <li class="tiles__tile" >
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/warm-audio-wa-8000-large-diaphragm-tube-condenser-microphone">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--kQQLi8c8--/t_card-square/v1633445553/wanedavjmsl7azlazexc.jpg"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/wanedavjmsl7azlazexc.jpg"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">Warm
@@ -958,11 +988,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="4 out of 5 stars"
@@ -1030,15 +1062,13 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
-                                                        <li class="tiles__tile">
+                                                        <li class="tiles__tile" >
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/mutable-instruments-beads">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--SUhi6JFZ--/t_card-square/v1614616340/gb4lvf7cv24lllkut0h6.png"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/gb4lvf7cv24lllkut0h6.png"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">Mutable
@@ -1048,7 +1078,8 @@
                                                                             <div class="csp-square-card__category">
                                                                                 <span>Keyboards and
                                                                                     Synths</span><span>Modular
-                                                                                    Synths</span></div>
+                                                                                    Synths</span>
+                                                                            </div>
                                                                             <div>
                                                                                 <meta content="Mutable Instruments"
                                                                                     itemtype="http://schema.org/Brand"
@@ -1065,6 +1096,7 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
@@ -1077,19 +1109,18 @@
                                                                                 <meta itemprop="lowPrice"
                                                                                     content="310.00">
                                                                             </span><span>Compare 16 from
-                                                                                <b>$310</b></span></div>
+                                                                                <b>$310</b></span>
+                                                                        </div>
                                                                     </div>
                                                                 </a></article>
                                                         </li>
-                                                        <li class="tiles__tile">
+                                                        <li class="tiles__tile" >
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/marantz-model-2270-stereophonic-receiver">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--6w_tC0-_--/t_card-square/v1550528818/x8pupallcnphy9f3kabq.jpg"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/x8pupallcnphy9f3kabq.jpg"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__finish-indicator">
                                                                             Multiple Finishes</div>
@@ -1130,11 +1161,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="4.78 out of 5 stars"
@@ -1199,15 +1232,13 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
-                                                        <li class="tiles__tile">
+                                                        <li class="tiles__tile" >
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/moog-realistic-concertmate-mg-1">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--OtD_SLjA--/t_card-square/v1557424613/mots9tuorgu5pxexw4gh.png"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/mots9tuorgu5pxexw4gh.png"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">Moog
@@ -1217,7 +1248,8 @@
                                                                             <div class="csp-square-card__category">
                                                                                 <span>Keyboards and
                                                                                     Synths</span><span>Analog
-                                                                                    Synths</span></div>
+                                                                                    Synths</span>
+                                                                            </div>
                                                                             <div>
                                                                                 <meta content="Moog"
                                                                                     itemtype="http://schema.org/Brand"
@@ -1246,11 +1278,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="4.5 out of 5 stars"
@@ -1317,15 +1351,13 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
-                                                        <li class="tiles__tile">
+                                                        <li class="tiles__tile" >
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/gibson-les-paul-custom-electric-guitar-1970-1985">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--A62h_ohL--/t_card-square/v1621547407/adlihol7tuzeflnyjkij.jpg"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/adlihol7tuzeflnyjkij.jpg"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__finish-indicator">
                                                                             Multiple Finishes</div>
@@ -1337,7 +1369,8 @@
                                                                                 Guitar 1970 - 1985</h3>
                                                                             <div class="csp-square-card__category">
                                                                                 <span>Electric Guitars</span><span>Solid
-                                                                                    Body</span></div>
+                                                                                    Body</span>
+                                                                            </div>
                                                                             <div>
                                                                                 <meta content="Gibson"
                                                                                     itemtype="http://schema.org/Brand"
@@ -1366,11 +1399,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="4.98 out of 5 stars"
@@ -1436,15 +1471,13 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
-                                                        <li class="tiles__tile">
+                                                        <li class="tiles__tile" >
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/focusrite-scarlett-2i2-studio-3rd-gen-usb-recording-bundle">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--cuma9DK9--/t_card-square/v1562876587/ngiv7zkwhs2ri3xmf1qn.jpg"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/ngiv7zkwhs2ri3xmf1qn.jpg"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">Focusrite
@@ -1484,11 +1517,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="4.63 out of 5 stars"
@@ -1556,15 +1591,13 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
-                                                        <li class="tiles__tile">
+                                                        <li class="tiles__tile" >
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/maestro-echoplex-ep-3-solid-state">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--v4_OFEKj--/t_card-square/v1642803128/st0otcdcoiwvpjaoo2w8.png"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/st0otcdcoiwvpjaoo2w8.png"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">Maestro
@@ -1603,11 +1636,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="4.75 out of 5 stars"
@@ -1673,15 +1708,13 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
-                                                        <li class="tiles__tile">
+                                                        <li class="tiles__tile" >
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/neumann-u-87-ai">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--_nQV81De--/t_card-square/v1471621675/ld0pn6zfzqrbihsskxxi.jpg"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/ld0pn6zfzqrbihsskxxi.jpg"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__finish-indicator">
                                                                             Multiple Finishes</div>
@@ -1723,11 +1756,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="4.7 out of 5 stars"
@@ -1795,15 +1830,13 @@
                                                                     </div>
                                                                 </a></article>
                                                         </li>
-                                                        <li class="tiles__tile">
+                                                        <li class="tiles__tile" >
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/native-instruments-maschine-mkiii-groove-production-control-surface">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--IPAJ9T7O--/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_auto:eco,w_296/v1507101912/spzwdedbxdjztxnia7fg.jpg"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/spzwdedbxdjztxnia7fg.jpg"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">Native
@@ -1843,11 +1876,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="4.82 out of 5 stars"
@@ -1916,12 +1951,10 @@
                                                         <li class="tiles__tile">
                                                             <article class="csp-square-card" itemscope=""
                                                                 itemtype="http://schema.org/Product"><a
-                                                                    class="csp-square-card__inner"
-                                                                    href="https://reverb.com/p/yamaha-dx7">
+                                                                    class="csp-square-card__inner" href="#">
                                                                     <div class="csp-square-card__main">
-                                                                        <div class="image-box"
-                                                                            style="padding-bottom: 100%;"><img
-                                                                                src="https://images.reverb.com/image/upload/s--6vvBeeMH--/t_card-square/v1622575719/wkhiisamdz7kyhjz9luo.png"
+                                                                        <div class="image-box"><img
+                                                                                src="/assets/images/wkhiisamdz7kyhjz9luo.png"
                                                                                 loading="lazy"></div>
                                                                         <div class="csp-square-card__title">
                                                                             <div class="size-90 weight-normal">Yamaha
@@ -1931,7 +1964,8 @@
                                                                             <div class="csp-square-card__category">
                                                                                 <span>Keyboards and
                                                                                     Synths</span><span>Digital
-                                                                                    Synths</span></div>
+                                                                                    Synths</span>
+                                                                            </div>
                                                                             <div>
                                                                                 <meta content="Yamaha"
                                                                                     itemtype="http://schema.org/Brand"
@@ -1960,11 +1994,13 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                    <!-- card details -->
                                                                     <div class="csp-square-card__details">
                                                                         <div class="csp-square-card__details__price"
                                                                             itemscope="" itemprop="offers"
                                                                             itemtype="http://schema.org/AggregateOffer">
                                                                             <div class="mb-half">
+                                                                                <!-- star rating -->
                                                                                 <div class="star-rating">
                                                                                     <div class="tooltip__trigger star-rating__stars star-rating__stars"
                                                                                         aria-label="4.67 out of 5 stars"
@@ -2039,12 +2075,17 @@
                                                 <div class="overflowing-row__control overflowing-row__control--right">
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
+
                     </div>
+
+
                     <h2 class="homepage__subheading">Shop By Instrument</h2>
                     <div class="homepage-container__component-wrapper homepage-container__component-wrapper--thin">
                         <section>
@@ -2053,136 +2094,137 @@
                                     <div class="overflowing-row__items">
                                         <div class="overflowing-row__items__inner">
                                             <ul class="tiles tiles--single-row tiles--large">
-                                                <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/electric-guitars/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713734/1-Electric-Guitars_so8uof.jpg&quot;);">
+                                                <li class="tiles__tile">
+                                                    <a class="category-item"
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image1"
+                                                            >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Electric Guitars</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/keyboards-and-synths/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713734/2-Synths_fagrao.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image2"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Keyboards and Synths</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/acoustic-guitars/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713734/3-Acoustic_zwfdsz.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image3"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Acoustic Guitars</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/amps/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713735/4-Amps_ssbqna.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image" id="category-item__image4"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Amps</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/effects-and-pedals/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713734/5-Effects_gmynv4.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image5"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Effects and Pedals</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/drums-and-percussion/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713734/6-Drums_pzx7ot.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image6"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Drums and Percussion</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/bass-guitars/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713735/7-Bass_pnpd7m.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image7"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Bass Guitars</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/pro-audio/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713736/8-Pro-Audio_dtwt0k.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image8"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Pro Audio</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/dj-and-lighting-gear/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713735/9-DJ_blup7h.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image9"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">DJ and Lighting Gear</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/folk-instruments/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1589218633/10-Folk_t6pdn3.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image10"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Folk Instruments</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/band-and-orchestra/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713735/11-B_O_uyl4vn.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image11"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Band and Orchestra</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/software/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713735/12-Software_gw56il.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image12"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Software</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/home-audio/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713736/13-HomeAudio_rz2vs9.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image13"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Home Audio</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/parts/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713736/14-Parts_e47wbg.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image14"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Parts</div>
                                                         </div>
                                                     </a></li>
                                                 <li class="tiles__tile"><a class="category-item"
-                                                        href="https://reverb.com/c/accessories/">
-                                                        <div class="category-item__image"
-                                                            style="background-image: url(&quot;https://reverb-res.cloudinary.com/image/upload/v1588713736/13-Accessories_v2xyxm.jpg&quot;);">
+                                                        href="">
+                                                        <div  class="category-item__image"  id="category-item__image15"
+                                                             >
                                                         </div>
                                                         <div class="category-item__footer">
                                                             <div class="category-item__text">Accessories</div>
@@ -3802,6 +3844,7 @@
         </section>
 
     </main>
+
     <!-- end main section -->
 
 
