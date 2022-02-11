@@ -630,6 +630,8 @@ li, ol, ul {
 }
 .mosaic-tile {
     display: inline-flex;
+    width: 440px;
+    
 }
 
 .mosaic-tile__link {
