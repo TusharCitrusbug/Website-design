@@ -7,9 +7,22 @@
    
 }
 
-#nav-bar-li, .instrumentia-header-logo{
-    width: 115px !important;
+input{
+    border:  #d5d5d5;
+}
+.instruemntia-header__main{
+    display: flex;
+}
+
+.instruemntiareverb-header__inner{
+    height: 38px;
+}
+.instrumentia-logo-container a{
+     width: 115px !important;
     height: 34px !important;
+   position: relative;
+   display: block;
+    
 }
 body {
     -moz-osx-font-smoothing: grayscale;
@@ -28,7 +41,7 @@ html{
 .nav-bar-li{
     list-style-type: none;
     display: inline-block;
-    /* padding: 10px 6px; */
+    padding: 8px 4px;
     
 }
 a{
@@ -43,32 +56,32 @@ a{
     padding-top: 22px;
 }
 
-header nav ul{
-    float: right;
-    margin-right: 25px;
-}
+
 header nav ul li{
     display:inline-block;
 }
 /* li{
     display: inline-blockS;
 } */
-header .instrumentia-header{
-    display: inline-block;
-}
+
 
 header{
     margin-top: 20px;
     /* padding-bottom: 10px; */
-    display: flex;
+    position: relative;
+    width: 100%;
 }
 
 .instrumentia-header nav{
-    width: 1354px;
+    width: 1425px;
     height: 54px;
     align-items: center;
     display: flex;
-    margin-left: 10px;
+    margin-left: 270px;
+    position: relative;
+    margin-top: 10px;
+    margin-top: -35px;
+    margin-bottom: 20px;
     
 }
 
@@ -79,34 +92,19 @@ header{
     background-color: antiquewhite;
 } */
 
-/* nav .instrumentia-logo-container{
-    
-} */
+
 
 .instrumentia-logo-container{
     width: 115px;
     height: 34px;
 }
-nav .instrumentia-logo-container img{
-    padding-top: 7px;
-    padding-left: 38px;
-    height: 85px;
-    width: 100px;
-    margin-bottom: -24px;
-    filter: contrast(250%);
-    margin-left: 100px;
 
 
-}
 
-nav .search-input .site-search__controls__input{
-    
-    margin-left: 0%;
-}
 nav .search-logo svg{
-    height: 50px;
-    width: 20px;
-    padding-top: 40px;
+    height: 33px;
+    width: 23px;
+    margin-left: 4px;
 
 }
 nav .search-logo{
@@ -120,21 +118,28 @@ nav .search-logo{
 
 
 .selling-btn{
-    border: 1px solid #dd7608;
-    color:#dd7608;
+    border: 2px solid #ca6b05; 
+    border-radius: 4px;
+    color: #ce6d06;
     margin-left: 5px;
-    height: 10px;
-    width: 20px;
-    padding: 4px 2px;
-    padding-top: 6px;
+    height: 36px;
+    width: 138px;
+    padding: 5px 17px;
+   margin-top: 27px;
+    position: absolute;
 
 }
 .sell-btn-container{
     width: 115px;
     height: 54px;
+    margin-left: 26px;
+    margin-bottom: 0px;
+    
+    position: relative;
 }
 .selling-btn:hover{
-    border: 2px solid #ca6b05;   
+    color: #eb8314; 
+    
 }
 
 .sign-up-btn a
@@ -142,39 +147,49 @@ nav .search-logo{
     margin-left: 5px;
     font-size: 12px;
     margin-top: 0px;
+    font-size: 16px ;
 }
  .sign-in-btn a{
     margin-left: -10px;
-    font-size: 12px;
+    font-size: 10px;
     margin-left: 10px;
     margin-top: 0px;
+    font-size: 16px;
 }
 .sign-up-btn a:hover{
     
     color: #dd7608;
-    transition: .5s ease;
-    padding: 7px 5px;
+   
     
 }
 .sign-in-btn a:hover{
     color: #dd7608;
-    transition: .5s ease;
-    padding: 7px 5px;
+   
 }
 
 nav .instrumentia-nav-ul{
-    margin-bottom: 0px;
-    margin-top: -56px;
+    position: relative;
 }
 
+#search-li{
+    position: relative;
+    margin-top: 10px;
+}
 #search-li .search-logo{
-    margin-left: -3px;
-    height: 10px;
-    width: 20px;
-    padding: 4px 2px;
-    padding-top: 6px;
+    margin-left: 732px;
+    height: 38px;
+    width: 36px;
+    margin-top: -26px;
+    position: absolute;
+    border-radius: 2px;
+}
+    
+#sell-btn-li
+{
+    margin-left: 760px;
     
 }
+
 
 
 
@@ -183,33 +198,26 @@ nav .instrumentia-nav-ul{
     width: 11.5rem;
 }
 
-.instrumentia-header-links{
+.instrumentia-header-links li{
     margin-top: 0px;
-    margin-left: 130px;
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 7px;
+}
+
+.instrumentia-header-links li:first-child{
+    margin-left: 295px;
 }
 
 
 
 
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
-
 nav li .cart-container img{
     height: 43px;
-    width: 23px;
+    width: 24px;
     margin-top: 10px;
     padding-top: 22px;
+    margin-left: 5px;
 }
 
 nav li .my-feed-container img{
@@ -217,82 +225,115 @@ nav li .my-feed-container img{
     width: 23px;
     margin-top: 10px;
     padding-top: 22px;
+    margin-left: 5px;
 }
 nav li .wish-list-container img{
-    height: 43px;
-    width: 23px;
+    height: 45px;
+    width: 25px;
     margin-top: 10px;
     padding-top: 22px;
-    transform: rotate(45deg);
+    margin-left: 10px;
   
 }
-nav li .wish-list-container img:hover{
-    transform: rotate(45deg);
-    animation: animateHeart 1.2s infinite;
+nav li .wish-list-container  .instrumentia-header-logo span{
+    text-align: justify;
+    padding: 0px 0px;
 }
 
+nav li .wish-list-container a:hover{
+   color: #dd7608;
+}
 
-@keyframes animateHeart {
-   
-    0% {
-      transform: rotate(45deg) scale(0.8);
-    }
-    5% {
-      transform: rotate(45deg) scale(0.9);
-    }
-    10% {
-      transform: rotate(45deg) scale(0.8);
-    }
-    15% {
-      transform: rotate(45deg) scale(1);
-    }
-    50% {
-      transform: rotate(45deg) scale(0.8);
-    }
-    100% {
-      transform: rotate(45deg) scale(0.8);
-    }
-  }
+#wish-list{
+   margin-left: 36px; 
+   position: absolute;
+   margin-top: -10px;
 
+}
 
+#feed-list{
+    margin-left: 110px; 
+    position: absolute;
+    margin-top: -8px;
+    
+    
+ }
+
+#cart-list{
+    margin-left: 153px;
+    position: absolute;
+    margin-top: -7px;
+    font-size: 13px;
+}
+
+#sign-up-list{
+    margin-left: 198px; 
+    position: absolute;
+    margin-top: 36px;
+}
+
+#sign-in-list{
+    margin-left: 258px; 
+    position: absolute;
+    margin-top: 36px;
+}
 
 .search-input{
 
    width: 100%;
-   height: 38px; 
-   margin-top: 1.2rem;
+  
+ 
     
 }
 
 nav .search-input .site-search__controls__input{
-    height: 22px;
-    width: 400px;
-    border:.1px solid #d5d5d5;
+    height: 38px;
+    width: 723px;
+    border: 0.1px solid #d5d5d5;
+    border-radius: 2px;
     margin-left: 9px;
     justify-content: center;
+    position: absolute;
+    margin-top: -26px;
+    padding: 10px;
 }
 
 #icon{
    display: list-item;
-    margin: 0%;
-    margin-top: 2px;
+   width: 60px;
 }
 #icon:hover{
     color: #dd7608;
+    
+}
+.instrumentia-list{
+    margin: 2px 0px;
 }
 
-#icon a{
-    margin-top: 10px;
-
+.absolute-div{
+    border:.5px solid #d5d5d5;
+    position: absolute;
+    border-top: white;
+    border-bottom: white;
+    width: 1171px;
+    height: 38px;
+    margin-top: -3px;
 }
 
+.instrumentia-list li:nth-child(8){
+    margin-left: 138px;
+}
 .instrumentia-header-links li a:hover{
     color:#dd7608;
 }
 
 .instrumentia-header-links li a{
-    font-size: 10px;
+    font-size: 1.3rem;
+    color: #414141;
+    position: relative;
+    margin-bottom: 2px;
 }
+
 
 header nav .menu-span{
     font-size: 20px;
@@ -302,10 +343,11 @@ header nav .menu-span{
     display: none;
     
 }
+
 header nav .menu-span:hover{
     /* visibility: visible; */
     display: block;
-    background-color: #ca6b05;
+  
 }
 
 @media screen and (max-width: 960px) {
@@ -324,16 +366,22 @@ header nav .menu-span:hover{
     width: 50%;
 }
  .body-wrapper  .sell__header__subtitle{
-    font-size: 13px;
-    line-height: 1.3;
-    margin-bottom: 1rem;
+    font-size: .9em;
+    font-weight: 700;
+    margin: 0 auto;
  }
 
+ #size-p{
+     width: 812px;
+     height: 17px;
+ }
  .body-wrapper .sell__header__title {
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 0rem;
+    font-size: 3.5em;
+    font-weight: 300;
     line-height: 1.2;
+    margin: 0.4em 0;
+    width: 812px;
+    height: 67px;
     
   
 }
@@ -371,16 +419,20 @@ header nav .menu-span:hover{
     margin: 0;
     position: relative;
     /* width: 300%; */
-    height: 9vh;
+    
 }
 
 .input-group__input, .sell__form__input, .input-group{
     
-    width: 350px;
-    height: 9vh;
+    width: 762px;
+    height: 53px;
     display: flex;
     
     
+}
+.sell__form__container{
+    width: 812px;
+    height: 53px;
 }
 /* input[type="search" i] {
     appearance: auto;
@@ -404,7 +456,9 @@ header nav .menu-span:hover{
     border-bottom-left-radius: 0.4rem;
     border-top-left-radius: 0.4rem; 
     /* margin: 0 -0.1rem 0 0; */
-    border: white;
+    border:.5px solid #d5d5d5;
+    padding: 13px;
+
     
   
 }
@@ -412,7 +466,7 @@ header nav .menu-span:hover{
 
 
 main{
-    margin-top: -2%;
+    margin-top: -23px;
 }
 
 /* .sell__header .bg-img-container img{
@@ -424,18 +478,22 @@ main{
 } */
 
 .sell__header {
-    margin-top: 20px;
+    margin-top: 25px;
     background-image: url(/assets/images/Mobile1cropped1.jpeg);
     background-size: cover;
-    height: 50vh;
+    height: 442px;
+    width: 1903px;
     background-position: top center;
     position: relative;
     z-index: 1;
 }
 
 .sell_header_container{
-    margin-left: 145px;
-    margin-top: 25px;
+    margin-left: 290px;
+    margin-top: 92px;
+    width: 812px;
+    height: 262px;
+    position: absolute;
     
 }
 
@@ -467,17 +525,25 @@ main{
 }
 
 .arrow-img img{
-    width: 15px;
-    height: 33px;
-    margin-top: -19px !important;
-    margin-left: 59px;
-    
+    width: 11px;
+    height: 12px;
+    margin-top: 6px;
+    margin-left: 76px;
+    position: absolute;
     display: inline;
 }
 
 .color-gray span{
     position: absolute;
     margin-top: 11px;
+    width: 101px;
+    height: 28px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 2px 0px;
+    text-align: left;
+    text-transform: capitalize;
+    border-radius: 5px;
     
 }
 
@@ -498,12 +564,20 @@ main{
 
 .gfi-span:hover{
     color: #f6870f;
+    box-shadow: #414141;
 }
 
 .size-101, #size-p, #size-h1{
-    color: white;
+    color: #212121;
 }
-
+.size-101{
+    font-size: 80%;
+    font-weight: 700;
+    letter-spacing: .02em;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
 .sell__form__input .search-iconn{
     margin-top: 1px;
     height: 20px;
@@ -511,8 +585,13 @@ main{
 }
 .sell__form__container #btn-srch{
     background-color: rgb(255, 255, 255);
-    border:1px solid rgb(160, 158, 158);
+    width: 50px;
+    height: 55px;
+    border:1px solid #d5d5d5;
     border-radius: 3px;
+    position: absolute;
+    margin-left:761px;
+    margin-top: -1px;
 }
 
 .sell__form__container #btn-srch:hover{
